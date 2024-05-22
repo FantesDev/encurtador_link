@@ -25,4 +25,7 @@ class AccountController extends Controller
     {
         echo 'logout';
     }
+    public function contato(){
+        return View('site.contato');
+    }
 }
